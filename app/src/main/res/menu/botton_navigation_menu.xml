@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_inicio"
+        android:title="Inicio"
+        android:icon="@drawable/ic_inicio" />
+    <item
+        android:id="@+id/navigation_add"
+        android:title="Insertar"
+        android:icon="@drawable/ic_add" />
+    <item
+        android:id="@+id/navigation_actualizar"
+        android:title="Actualizar"
+        android:icon="@drawable/ic_actualizar"/>
+    <item
+        android:id="@+id/navigation_borrar"
+        android:title="Borrar"
+        android:icon="@drawable/ic_borrar" />
+    <item
+        android:id="@+id/navigation_salir"
+        android:title="Salir"
+        android:icon="@drawable/ic_salir" />
+
+</menu>

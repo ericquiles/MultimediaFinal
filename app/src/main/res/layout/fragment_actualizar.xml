@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".actualizar">
+
+    <!-- Logo centrado -->
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.279"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_title_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/anonymous_pro_bold"
+            android:text="Actualizar"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="18dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="600dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="ID:"
+            android:textColor="@color/white"
+            android:textColorHighlight="#FFFFFFFF"
+            android:textColorHint="#FFFFFFFF"
+            android:textColorLink="#FFFFFFFF"
+            android:textSize="18sp" />
+
+        <!-- EditText para ingresar el Nombre -->
+        <EditText
+            android:id="@+id/editTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Id coche"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <!-- Text View para el Nombre -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Nombre:"
+            android:textColor="@color/white"
+            android:textColorHighlight="#FFFFFFFF"
+            android:textColorHint="#FFFFFFFF"
+            android:textColorLink="#FFFFFFFF"
+            android:textSize="18sp" />
+
+        <!-- EditText para ingresar el Nombre -->
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre coche"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <!-- Text View para la Posicion -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Precio:"
+            android:textColor="@color/white"
+            android:textColorHighlight="#FFFFFFFF"
+            android:textColorHint="#FFFFFFFF"
+            android:textColorLink="#FFFFFFFF"
+            android:textSize="18sp" />
+
+        <!-- EditText para ingresar el precio -->
+        <EditText
+            android:id="@+id/editTextPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio coche"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <!-- Text View para el precio -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Modelo:"
+            android:textColor="@color/white"
+            android:textColorHighlight="#FFFFFFFF"
+            android:textColorHint="#FFFFFFFF"
+            android:textColorLink="#FFFFFFFF"
+            android:textSize="18sp" />
+
+        <!-- EditText para ingresar el  -->
+        <EditText
+            android:id="@+id/editTextModelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Modelo Coche"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <!-- Text View para la URL de la Imagen -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="URL de la Imagen:"
+            android:textColor="@color/white"
+            android:textColorHighlight="#FFFFFFFF"
+            android:textColorHint="#FFFFFFFF"
+            android:textColorLink="#FFFFFFFF"
+            android:textSize="18sp" />
+
+        <!-- EditText para ingresar la URL de la Imagen -->
+        <EditText
+            android:id="@+id/editTextUrlImagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Imagen del coche"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/buttonActualizarCoche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/white"
+            android:text="Actualizar Coche"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
