@@ -65,7 +65,7 @@ Esta aplicación de Android Studio tiene como temática principal la gestión de
 
 ### Pantalla Principal
 
-![Pantalla Principal](screenshots/main_screen.png)
+![Pantalla Principal](1708018822399.jpg)
 
 - Muestra la lista de coches y proporciona acceso a diferentes funciones mediante la barra de navegación inferior.
 
