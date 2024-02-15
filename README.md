@@ -83,7 +83,7 @@ Esta aplicación de Android Studio tiene como temática principal la gestión de
 
 ### Eliminar Coche
 
-![Eliminar Coche](screenshots/delete_car_screen.png)
+![Eliminar Coche](1708018822384.jpg)
 
 - Permite a los usuarios eliminar un coche existente de la lista.
 
