@@ -71,7 +71,7 @@ Esta aplicación de Android Studio tiene como temática principal la gestión de
 
 ### Agregar Coche
 
-![Agregar Coche](screenshots/add_car_screen.png)
+![Agregar Coche](1708018822389.jpg)
 
 - Permite a los usuarios agregar un nuevo coche proporcionando la información necesaria.
 
