@@ -58,7 +58,7 @@ Esta aplicación de Android Studio tiene como temática principal la gestión de
 
 ### Pantalla de Inicio de Sesión
 
-![Inicio de Sesión](![1708018822405](https://github.com/ericquiles/MultimediaFinal/assets/118289313/bc61e084-ad05-43b8-b47f-dbd3fe599956)
+![Inicio de Sesión](1708018822405.jpg)
 )
 
 - Pantalla donde los usuarios inician sesión.
